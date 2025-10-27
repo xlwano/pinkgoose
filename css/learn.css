@@ -1,0 +1,422 @@
+body {
+    background: rgb(10, 17, 23);
+    font-family: Arial;
+}
+
+.blok {
+    border-radius: 20px;
+    transition: transform 0.2s;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+main {
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+}
+
+main>div {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blok-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blok-row {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.naam,
+.blok {
+    user-select: none;
+}
+
+header {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px;
+}
+
+.button {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -170px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: -300px;
+}
+
+.maintitle1 {
+    font-size: 40px;
+    display: flex;
+    color: white;
+}
+
+.maintitle2 {
+    font-size: 40px;
+    display: flex;
+    margin-left: 10px;
+    color: #ffb4d3;
+}
+
+.blok:active {
+    transform: scale(0.98);
+}
+
+.blok:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.blok {
+    width: 100px;
+    height: 50px;
+    justify-self: center;
+    flex-direction: row;
+    display: flex;
+    font-size: 13px;
+}
+
+.blok-container>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    margin-top: 30px;
+    background-color: rgb(36, 50, 64);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 80px;
+    height: 40px;
+    margin-left: 200px;
+}
+
+.ready {
+    font-size: 45px;
+    color: #e5e5e5;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    margin-top: 100px;
+}
+
+.ready-container {
+    justify-content: center;
+    align-content: center;
+    display: flex;
+
+}
+
+img {
+    user-select: none;
+}
+
+.rdy-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sterretjes {
+    display: flex;
+    margin-top: -110px;
+    margin-left: 20px;
+
+}
+
+.knop-container1 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-left: 230px;
+    max-width: 300px;
+}
+
+.knop-container2 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 16px;
+    margin-left: 230px;
+    max-width: 300px;
+}
+
+.knoppen {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.knop {
+    background-color: rgb(24, 39, 51);
+    width: 150px;
+    border-style: transparent white;
+    border-radius: 70px;
+    margin-top: -20px;
+    height: 48px;
+    font-size: 16px;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
+
+.knop:active {
+    transform: scale(0.98);
+}
+
+.knop:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.invest {
+    color: rgb(255, 181, 212);
+}
+
+.startup {
+    color: rgb(255, 195, 77);
+}
+
+.service {
+    color: #d387f7;
+}
+
+.community {
+    color: #74dff8;
+}
+
+.impact {
+    color: #23c9de;
+}
+
+.defi {
+    color: #ff9e9e;
+}
+
+.more {
+    color: #505f6d;
+}
+
+.spelfoto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: -280px;
+
+}
+
+.spelfoto {
+    height: 400px;
+    width: 900px;
+    display: flex;
+}
+
+.speltekst {
+    background-color: #ffb4d3;
+    width: 300px;
+    border-radius: 70px;
+    margin-left: -600px;
+    margin-top: 410px;
+    height: 35px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rijtje-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    font-size: 20px;
+    color: #37424d;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.designed {
+    color: #e6e6e6;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.launch {
+    color: #ffb5d4;
+}
+
+.ster2 {
+    display: flex;
+    margin-left: 850px;
+    margin-bottom: -100px;
+    margin-top: 120px;
+}
+
+.lijn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    font-size: 40px;
+}
+
+.works {
+    color: #e5e5e5;
+    display: flex;
+    font-size: 45px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.ster3 {
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: -100px;
+    margin-top: 120px;
+}
+
+.ster4 {
+    display: flex;
+    margin-left: 700px;
+    margin-bottom: -100px;
+    margin-top: -80px;
+}
+
+.symbool-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    gap: 30px;
+
+}
+
+.symbool {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.box-symbool {
+    background-color: #162028;
+    border: solid #2a3744;
+    border-width: 1px;
+    border-radius: 30px;
+    width: 130px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box-symbool-text {
+    color: #e6e6e6;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-left: 20px;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.snapshot-text {
+    margin-left: -10px;
+}
+
+.ens-text {
+    margin-left: 25px;
+}
+
+.opensea-text {
+    margin-left: 30px;
+}
+
+footer{
+    background-color: #121e28;
+    height: auto;
+    width :auto;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    color: #647688;
+    font-size: 16px;
+}
+
+.icon-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    margin-left: 200px;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 500px;
+    font-size: 25px;
+}
+
+.button-about {
+    cursor: pointer;
+    color: white;
+}
+
+.button-jobs {
+    cursor: pointer;
+    color: white;
+}
+
+.button-legal {
+    cursor: pointer;
+    color: #ffc803;
+}
