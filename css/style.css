@@ -26,14 +26,10 @@ button {
 main {
     height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
 }
 
 .intro {
@@ -66,14 +62,6 @@ a {
     align-items: center;
 }
 
-.blok-row {
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    margin-bottom: 16px;
-}
-
-.naam,
 .blok {
     user-select: none;
 }
@@ -85,11 +73,6 @@ header {
     margin-left: 200px;
 }
 
-.mainpagetekst {
-    font-size: 80px;
-    display: flex;
-    justify-content: flex-start;
-}
 
 .button {
     color: white;
@@ -183,7 +166,6 @@ header {
     background-color: rgb(206, 171, 255);
     color: black;
     width: 150px;
-    border-style: transparent white;
     border-radius: 10px;
     margin-top: 20px;
     display: flex;
@@ -256,7 +238,6 @@ img {
 .knop {
     background-color: rgb(24, 39, 51);
     width: 150px;
-    border-style: transparent white;
     border-radius: 70px;
     margin-top: -20px;
     height: 48px;
@@ -674,7 +655,7 @@ img {
 .reading {
     display: flex;
     cursor: pointer;
-    font: bolder;
+    font-weight: bolder;
 }
 
 .lil-text {
@@ -768,7 +749,7 @@ img {
 .listening {
     display: flex;
     cursor: pointer;
-    font: bolder;
+    font-weight: bolder;
     color: white;
     margin-left: -230px;
     margin-top: 20px;
@@ -973,7 +954,6 @@ footer {
     border-radius: 10px;
     border: solid #273441;
     border-width: 2px;
-    display: flex;
     padding: 15px 252px 15px 15px;
     font-size: 20px;
     margin-top: 40px;
